@@ -1,0 +1,21 @@
+
+    .Bebidas{
+        background-color:#EB984E;
+    font-family:'Rock Salt', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+        div{
+            
+    width: 50%;
+    background-color:#212F3D;
+    border: 1px;
+    text-decoration: none;
+    color: aliceblue;
+
+
+        }
+    }

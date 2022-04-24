@@ -1,0 +1,56 @@
+header{
+    background-color: #212F3D;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 992px;
+        margin: 0 auto;
+        .Item-nav{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .nav-link{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .Logo{
+            font-size: 30px;
+            font-weight: bold;
+            padding: 0 40px;
+            line-height: 80px;
+        }
+        
+        ul{
+            display: flex;
+    margin-right: 40px;
+    list-style: none;
+    .Item-li{
+        font-size: 18px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+        width: max-content;
+        }
+        .nav-links{
+            padding: 8px 12px;
+            border-radius: 3px;
+        }
+        .nav-links:hover{
+            background-color: black;
+            transition: 1.5;
+        }
+            
+                
+
+                
+            
+        
+        }
+       
+    }
+}

@@ -1,104 +1,90 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
-*{
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+.Body {
+  background-color: #FAD7A0;
+  padding: 90px 20px 0;
 }
 
-.Body{
-    background-color:#FAD7A0;
-    padding: 90px 20px 0;
+header {
+  background-color: #212F3D;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+}
+header nav .Item-nav {
+  color: aliceblue;
+  text-decoration: none;
+}
+header nav .nav-link {
+  color: aliceblue;
+  text-decoration: none;
+}
+header nav .Logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+header nav ul {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+header nav ul .Item-li {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+header nav ul .nav-links {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+header nav ul .nav-links:hover {
+  background-color: black;
+  transition: 1.5;
 }
 
-.Header{
-    background-color: #212F3D;
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+.Bebidas {
+  background-color: #EB984E;
+  font-family: "Rock Salt", cursive;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-
-    max-width: 992px;
-    margin: 0 auto;
-}
-.nav-link{
-    color: aliceblue;
-    text-decoration: none;
-}
-.Item-nav{
-    color: aliceblue;
-    text-decoration: none;
-}
-.Logo{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 80px;
-}
-.nav-ul{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-.Item-li{
-    font-size: 18px;
-    margin: 0 10px;
-    line-height: 80px;
-    text-transform: uppercase;
-    width: max-content;
-}
-.nav-links{
-    padding: 8px 12px;
-    border-radius: 3px;
-}
-.nav-links:hover{
-    background-color: black;
-    transition: 1.5;
+.Bebidas div {
+  width: 50%;
+  background-color: #212F3D;
+  border: 1px;
+  text-decoration: none;
+  color: aliceblue;
 }
 
-
-
-
-
-
-
-.Bebidas{
-    background-color:#EB984E;
-    font-family:'Rock Salt', cursive;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    column-gap: 10px;
-    row-gap: 10px;
+.Nosotros {
+  background-color: #212F3D;
+  color: #EB984E;
+  width: 100%;
 }
 
-.Bebidas div{
-    width: 50%;
-    background-color:#212F3D;
-    border: 1px;
-    text-decoration: none;
-    color: aliceblue;
+.Footer {
+  color: black;
+  background-color: cornsilk;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-betwee;
 }
 
-
-
-.Nosotros{
-    background-color: #212F3D;
-    color: aquamarine;
-    width: 100%;
-}
-
-.Footer{
-    color: black;
-    background-color:cornsilk;
-    width: 100%;
-    height: 70%;
-    display: flex;
-    justify-content: space-between;
-}
+/*# sourceMappingURL=boot.css.map */
