@@ -145,7 +145,7 @@ header nav ul .nav-links:hover {
 }
 
 .disclaimer {
-  display: none;
+  display: none !important;
 }
 
 /*# sourceMappingURL=boot.css.map */
