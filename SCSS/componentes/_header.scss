@@ -1,5 +1,6 @@
+@import 'listas';
 header{
-    background-color: #212F3D;
+    background-color: nth($colores, 6);
     height: 80px;
     position: fixed;
     width: 100%;
@@ -11,11 +12,11 @@ header{
         max-width: 992px;
         margin: 0 auto;
         .Item-nav{
-            color: aliceblue;
+            color: nth($colores, 8);
             text-decoration: none;
         }
         .nav-link{
-            color: aliceblue;
+            color: nth($colores, 8);
             text-decoration: none;
         }
         .Logo{
@@ -41,7 +42,7 @@ header{
             border-radius: 3px;
         }
         .nav-links:hover{
-            background-color: black;
+            background-color: nth($colores, 3);
             transition: 1.5;
         }
             
