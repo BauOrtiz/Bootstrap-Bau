@@ -1,7 +1,7 @@
-
+@import '../base/listas';
 .Footer{
     width: 100%;
-    background-color:#212f3d;
+    background-color:nth($colores,6);
     .grupo1{
         width: 100%;
         max-width: 1200px;
