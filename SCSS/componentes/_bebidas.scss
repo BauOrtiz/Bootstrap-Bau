@@ -1,6 +1,6 @@
 
     .Bebidas{
-        background-color:#eb984e;
+        background-color:nth($colores,2);
     font-family:'Rock Salt', cursive;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -11,10 +11,10 @@
         div{
             
     width: 50%;
-    background-color:#212f3d;
+    background-color:nth($colores,6);
     border: 1px;
     text-decoration: none;
-    color:aliceblue;
+    color:nth($colores,8);
 
 
         }

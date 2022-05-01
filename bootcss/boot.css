@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #212f3d;
+  background-color: #212F3D;
   height: 80px;
   position: fixed;
   width: 100%;
@@ -20,11 +20,11 @@ header nav {
   margin: 0 auto;
 }
 header nav .Item-nav {
-  color: #212f3d;
+  color: #212F3D;
   text-decoration: none;
 }
 header nav .nav-link {
-  color: #212f3d;
+  color: #212F3D;
   text-decoration: none;
 }
 header nav .Logo {
@@ -55,7 +55,7 @@ header nav ul .nav-links:hover {
 }
 
 .Bebidas {
-  background-color: #eb984e;
+  background-color: #EB984E;
   font-family: "Rock Salt", cursive;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -66,14 +66,14 @@ header nav ul .nav-links:hover {
 }
 .Bebidas div {
   width: 50%;
-  background-color: #212f3d;
+  background-color: #212F3D;
   border: 1px;
   text-decoration: none;
   color: aliceblue;
 }
 
 .Nosotros {
-  background-color: #212f3d;
+  background-color: #212F3D;
   color: #FAD7A0;
   width: 100%;
 }
@@ -124,7 +124,7 @@ header nav ul .nav-links:hover {
   transition: all 300ms ease;
 }
 .Footer .grupo1 .box .red-social a:hover {
-  color: #eb984e;
+  color: #EB984E;
 }
 .Footer .grupo2 {
   background-color: #0a1a2a;

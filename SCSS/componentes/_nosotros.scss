@@ -1,5 +1,6 @@
+@import '../base/listas';
 .Nosotros{
-    background-color:#212f3d;
-    color:#FAD7A0;
+    background-color:nth($colores,6);
+    color:nth($colores,7);
     width: 100%;
 }
