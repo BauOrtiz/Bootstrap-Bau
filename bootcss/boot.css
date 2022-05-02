@@ -79,11 +79,11 @@ header nav ul .nav-links:hover {
   width: 100%;
 }
 
-.Footer {
+Footer {
   width: 100%;
   background-color: #212F3D;
 }
-.Footer .grupo1 {
+Footer .grupo1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -92,26 +92,26 @@ header nav ul .nav-links:hover {
   grid-gap: 50px;
   padding: 45px 0px;
 }
-.Footer .grupo1 .box figure {
+Footer .grupo1 .box figure {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Footer .grupo1 .box figure img {
+Footer .grupo1 .box figure img {
   width: 250px;
 }
-.Footer .grupo1 .box h2 {
+Footer .grupo1 .box h2 {
   color: aliceblue;
   margin-bottom: 25px;
   font-size: 20px;
 }
-.Footer .grupo1 .box p {
+Footer .grupo1 .box p {
   color: #fff;
   margin-bottom: 10px;
 }
-.Footer .grupo1 .box .red-social a {
+Footer .grupo1 .box .red-social a {
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -124,20 +124,20 @@ header nav ul .nav-links:hover {
   border-radius: 3px;
   transition: all 300ms ease;
 }
-.Footer .grupo1 .box .red-social a:hover {
+Footer .grupo1 .box .red-social a:hover {
   color: #FAD7A0;
 }
-.Footer .grupo2 {
+Footer .grupo2 {
   background-color: #0a1a2a;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
 }
-.Footer .grupo2 small {
+Footer .grupo2 small {
   font-size: 15px;
 }
 @media screen and (max-width: 800px) {
-  .Footer {
+  Footer {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
