@@ -1,0 +1,19 @@
+@import '../base/listas';
+
+/*$nosotros: (
+    bg-color: nth($colores,6),
+    color: nth($colores,7),
+    width: 100%
+);*/
+
+$colores-standar: (
+    bg-color-naranja: nth($colores,2),
+    bg-color-grisnegro: nth($colores,6),
+    color: nth($colores,8)
+);
+
+$colores-medium: (
+    bg-color-negroclaro: nth($colores,1)
+    bg-color-naranjaclaro: nth($colores,7)
+    color: nth($colores,6)
+)

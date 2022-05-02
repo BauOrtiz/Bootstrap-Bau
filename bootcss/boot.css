@@ -1,147 +1,19 @@
-/*Google Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
-.Body {
-  background-color: #FAD7A0;
-  padding: 90px 0px 0;
-}
+/* Error: expected ")".
+ *    ,
+ * 17 |     bg-color-naranjaclaro: nth($colores,7)
+ *    |                          ^
+ *    '
+ *   SCSS\base\_mapas.scss 17:26          @import
+ *   SCSS\componentes\_nosotros.scss 2:9  @import
+ *   SCSS\style.scss 7:9                  root stylesheet */
 
-header {
-  background-color: #212F3D;
-  height: 80px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ")".\a    \2577 \a 17 \2502      bg-color-naranjaclaro: nth($colores,7)\d\a    \2502                           ^\a    \2575 \a   SCSS\\base\\_mapas.scss 17:26          @import\a   SCSS\\componentes\\_nosotros.scss 2:9  @import\a   SCSS\\style.scss 7:9                  root stylesheet';
 }
-header nav {
-  display: flex;
-  justify-content: space-between;
-  max-width: 992px;
-  margin: 0 auto;
-}
-header nav .Item-nav {
-  color: #efefef;
-  text-decoration: none;
-}
-header nav .nav-link {
-  color: #efefef;
-  text-decoration: none;
-}
-header nav .Logo {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 0 40px;
-  line-height: 80px;
-}
-header nav ul {
-  display: flex;
-  margin-right: 40px;
-  list-style: none;
-}
-header nav ul .Item-li {
-  font-size: 18px;
-  margin: 0 10px;
-  line-height: 80px;
-  text-transform: uppercase;
-  width: max-content;
-}
-header nav ul .nav-links {
-  padding: 8px 12px;
-  border-radius: 3px;
-}
-header nav ul .nav-links:hover {
-  background-color: black;
-  color: #FAD7A0;
-  transition: all 300ms ease;
-}
-
-.Bebidas {
-  background-color: #EB984E;
-  font-family: "Rock Salt", cursive;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
-  column-gap: 10px;
-  row-gap: 10px;
-}
-.Bebidas div {
-  width: 50%;
-  background-color: #212F3D;
-  border: 1px;
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.Nosotros {
-  background-color: #212F3D;
-  color: #FAD7A0;
-  width: 100%;
-}
-
-Footer {
-  width: 100%;
-  background-color: #212F3D;
-}
-Footer .grupo1 {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 45px 0px;
-}
-Footer .grupo1 .box figure {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-Footer .grupo1 .box figure img {
-  width: 250px;
-}
-Footer .grupo1 .box h2 {
-  color: aliceblue;
-  margin-bottom: 25px;
-  font-size: 20px;
-}
-Footer .grupo1 .box p {
-  color: #fff;
-  margin-bottom: 10px;
-}
-Footer .grupo1 .box .red-social a {
-  display: inline-block;
-  text-decoration: none;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  color: #fff;
-  margin-right: 10px;
-  background-color: black;
-  text-align: center;
-  border-radius: 3px;
-  transition: all 300ms ease;
-}
-Footer .grupo1 .box .red-social a:hover {
-  color: #FAD7A0;
-}
-Footer .grupo2 {
-  background-color: #0a1a2a;
-  padding: 15px 10px;
-  text-align: center;
-  color: #fff;
-}
-Footer .grupo2 small {
-  font-size: 15px;
-}
-@media screen and (max-width: 800px) {
-  Footer {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }
-}
-
-/*# sourceMappingURL=boot.css.map */
