@@ -20,11 +20,11 @@ header nav {
   margin: 0 auto;
 }
 header nav .Item-nav {
-  color: #212F3D;
+  color: #efefef;
   text-decoration: none;
 }
 header nav .nav-link {
-  color: #212F3D;
+  color: #efefef;
   text-decoration: none;
 }
 header nav .Logo {
@@ -51,7 +51,9 @@ header nav ul .nav-links {
 }
 header nav ul .nav-links:hover {
   background-color: black;
+  color: #FAD7A0;
   transition: 1.5;
+  transition: all 300ms ease;
 }
 
 .Bebidas {

@@ -12,11 +12,11 @@ header{
         max-width: 992px;
         margin: 0 auto;
         .Item-nav{
-            color:nth($colores,6);
+            color:nth($colores,5);
             text-decoration: none;
         }
         .nav-link{
-            color:nth($colores,6);
+            color:nth($colores,5);
             text-decoration: none;
         }
         .Logo{
@@ -43,7 +43,9 @@ header{
         }
         .nav-links:hover{
             background-color:nth($colores,3);
+            color: nth($colores,7);
             transition: 1.5;
+            transition: all 300ms ease;
         }
             
                 
