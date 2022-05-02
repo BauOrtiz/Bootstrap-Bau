@@ -44,7 +44,6 @@ header{
         .nav-links:hover{
             background-color:nth($colores,3);
             color: nth($colores,7);
-            transition: 1.5;
             transition: all 300ms ease;
         }
             

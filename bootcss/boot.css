@@ -52,7 +52,6 @@ header nav ul .nav-links {
 header nav ul .nav-links:hover {
   background-color: black;
   color: #FAD7A0;
-  transition: 1.5;
   transition: all 300ms ease;
 }
 
@@ -126,7 +125,7 @@ header nav ul .nav-links:hover {
   transition: all 300ms ease;
 }
 .Footer .grupo1 .box .red-social a:hover {
-  color: #EB984E;
+  color: #FAD7A0;
 }
 .Footer .grupo2 {
   background-color: #0a1a2a;
