@@ -1,7 +1,7 @@
 @import '../base/mapas';
 @import '../base/listas';
     .Bebidas{
-        background-color:nth($colores,2);
+        background-color: map-get($colores-standar,bg-color-naranja);
     font-family:'Rock Salt', cursive;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,10 +12,10 @@
         div{
             
     width: 50%;
-    background-color:nth($colores,6);
+    background-color: map-get($colores-standar,bg-color-grisnegro);
     border: 1px;
     text-decoration: none;
-    color:nth($colores,8);
+    color: map-get($colores-standar, color);
 
 
         }
