@@ -1,5 +1,6 @@
-@mixin cosas ($valor, $color, $espacio) {
+@mixin cosas ($valor, $color, $espacio, $empujon) {
     background-color: $valor;
     color: $color;
     width: $espacio;
+    margin-top: $empujon;
 }
