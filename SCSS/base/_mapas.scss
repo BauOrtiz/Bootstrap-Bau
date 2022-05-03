@@ -7,13 +7,13 @@
 );*/
 
 $colores-standar: (
-    bg-color-naranja: nth($colores,2),
-    bg-color-grisnegro: nth($colores,6),
-    color: nth($colores,8)
+    bg-color-naranja:#EB984E,
+    bg-color-grisnegro:#212F3D,
+    color: aliceblue
 );
 
 $colores-medium: (
-    bg-color-negroclaro: nth($colores,1)
-    bg-color-naranjaclaro: nth($colores,7)
-    color: nth($colores,6)
+    bg-color-negroclaro: nth($colores,1),
+    bg-color-naranjaclaro: nth($colores,7),
+    color: nth($colores,6),
 )

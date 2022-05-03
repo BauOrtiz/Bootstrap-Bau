@@ -1,7 +1,6 @@
 @import '../base/listas';
-@import '../base/mapas';
 @import '../base/mixin';
 
 .Nosotros{
-    @include cosas (#212F3D,#FAD7A0, 100%)
+  background-color: aqua;
 }
