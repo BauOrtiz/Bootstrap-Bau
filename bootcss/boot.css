@@ -80,6 +80,11 @@ header nav ul .nav-links:hover {
   margin-top: 20px;
 }
 
+.Fotos {
+  margin: 10px;
+  background-color: #212F3D;
+}
+
 Footer {
   width: 100%;
   background-color: #212F3D;
