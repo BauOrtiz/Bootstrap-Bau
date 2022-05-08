@@ -36,6 +36,11 @@ header nav .Logo {
   padding: 0 40px;
   line-height: 80px;
 }
+header nav .nav-toggle {
+  color: #efefef;
+  background-color: none;
+  border: none;
+}
 header nav ul {
   display: flex;
   margin-right: 40px;

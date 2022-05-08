@@ -26,6 +26,12 @@ header{
             padding: 0 40px;
             line-height: 80px;
         }
+
+        .nav-toggle{
+            color: nth($colores,5);
+            background-color: none;
+            border: none;
+        }
         
         ul{
             display: flex;
@@ -47,13 +53,7 @@ header{
             color: nth($colores,7);
             transition: all 300ms ease;
         }
-            
-                
-
-                
-            
-        
-        }
+     }
        
     }
 }
