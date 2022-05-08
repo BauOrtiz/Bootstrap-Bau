@@ -38,7 +38,7 @@ header{
             display: none;
         }
         
-        ul{
+        .nav-ul{
             display: flex;
     margin-right: 40px;
     list-style: none;
@@ -53,8 +53,7 @@ header{
             padding: 8px 12px;
             border-radius: 3px;
         }
-        .nav-links:hover,
-        .nav-links_active {
+        .nav-links:hover{
             background-color:nth($colores,3);
             color: nth($colores,7);
             transition: all 300ms ease;
@@ -73,7 +72,7 @@ header{
                 line-height: 60px;
             }
     
-            ul{
+            .nav-ul{
                 flex-direction: column;
                 align-items: center;
                 margin-right: 40px;
@@ -87,6 +86,7 @@ header{
                 height: calc(100% - 60px);
                 overflow-y: auto;
                 left: 100%;
+                transition: left 0,3s;
         .Item-li{
             line-height: 70px;
             }
