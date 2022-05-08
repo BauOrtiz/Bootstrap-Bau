@@ -36,23 +36,23 @@ header nav .Logo {
   padding: 0 40px;
   line-height: 80px;
 }
-header nav .nav-ul {
+header nav .nav-menu {
   display: flex;
   margin-right: 40px;
   list-style: none;
 }
-header nav .nav-ul .Item-li {
+header nav .nav-menu .Item-li {
   font-size: 18px;
   margin: 0 10px;
   line-height: 80px;
   text-transform: uppercase;
   width: max-content;
 }
-header nav .nav-ul .nav-links {
+header nav .nav-menu .nav-links {
   padding: 8px 12px;
   border-radius: 3px;
 }
-header nav .nav-ul .nav-links:hover {
+header nav .nav-menu .nav-links:hover {
   background-color: black;
   color: #FAD7A0;
   transition: all 300ms ease;
@@ -78,7 +78,7 @@ header .nav-toggle {
     padding: 0 20px;
     line-height: 60px;
   }
-  header .nav-ul {
+  header .nav-menu {
     flex-direction: column;
     align-items: center;
     margin-right: 40px;
@@ -93,11 +93,11 @@ header .nav-toggle {
     left: 100%;
     transition: left 0, 3s;
   }
-  header .nav-ul .Item-li {
+  header .nav-menu .Item-li {
     line-height: 70px;
   }
-  header .nav-ul .nav-links:hover,
-header .nav-ul .nav-links_active {
+  header .nav-menu .nav-links:hover,
+header .nav-menu .nav-links_active {
     background: none;
     color: #FAD7A0;
   }
