@@ -26,17 +26,6 @@ header{
             padding: 0 40px;
             line-height: 80px;
         }
-
-        .nav-toggle{
-            text-decoration: none;
-            color: nth($colores,5);
-            background-color: nth($colores,6);
-            border: none;
-            font-size: 30px;
-            padding: 0 10px;
-            line-height: 60px;
-            display: none;
-        }
         
         .nav-ul{
             display: flex;
@@ -60,6 +49,19 @@ header{
         }
      }
        
+    }
+    .nav-toggle{
+        text-decoration: none;
+        color: nth($colores,5);
+        background-color: nth($colores,6);
+        border: none;
+        font-size: 30px;
+        padding: 0 10px;
+        line-height: 60px;
+        cursor: pointer;
+
+
+        display: none;
     }
 }
 
@@ -100,9 +102,10 @@ header{
          .nav-toggle{
              display: block;
          }
-         .nav-menu-visible{
-             left: 0;
-         }
+        
          
+    }
+    .nav-menu_visible{
+        left: 0;
     }
 }
