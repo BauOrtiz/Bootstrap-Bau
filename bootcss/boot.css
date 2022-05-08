@@ -37,9 +37,14 @@ header nav .Logo {
   line-height: 80px;
 }
 header nav .nav-toggle {
+  text-decoration: none;
   color: #efefef;
-  background-color: none;
+  background-color: #212F3D;
   border: none;
+  font-size: 30px;
+  padding: 0 10px;
+  line-height: 60px;
+  display: none;
 }
 header nav ul {
   display: flex;

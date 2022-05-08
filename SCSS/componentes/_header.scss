@@ -28,9 +28,14 @@ header{
         }
 
         .nav-toggle{
+            text-decoration: none;
             color: nth($colores,5);
-            background-color: none;
+            background-color: nth($colores,6);
             border: none;
+            font-size: 30px;
+            padding: 0 10px;
+            line-height: 60px;
+            display: none;
         }
         
         ul{
