@@ -100,12 +100,13 @@ header{
             }
          }
          .nav-toggle{
+             height: 50px;
              display: block;
          }
         
-         
+         .nav-menu_visible{
+            left: 0;
+        }
+        }
     }
-}
-.nav-menu_visible{
-    left: 0;
-}
+

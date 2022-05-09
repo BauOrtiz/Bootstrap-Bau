@@ -102,13 +102,13 @@ header .nav-menu .nav-links_active {
     color: #FAD7A0;
   }
   header .nav-toggle {
+    height: 50px;
     display: block;
   }
+  header .nav-menu_visible {
+    left: 0;
+  }
 }
-.nav-menu_visible {
-  left: 0;
-}
-
 .Bebidas {
   background-color: #EB984E;
   font-family: "Rock Salt", cursive;
