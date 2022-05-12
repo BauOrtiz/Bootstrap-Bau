@@ -134,6 +134,15 @@ header .nav-menu .nav-links_active {
   color: aliceblue;
 }
 
+.botellones {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #212F3D;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  color: #FAD7A0;
+}
+
 .Nosotros {
   font-family: "Bebas Neue", cursive;
   background-color: #212F3D;

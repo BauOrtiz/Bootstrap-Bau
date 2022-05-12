@@ -26,3 +26,11 @@
 
         }
     }
+    .botellones {
+        margin: 10px 0;
+        width: 100%;
+        background-color: nth($colores,6);
+        font-family:'Bebas Neue', cursive;
+        font-size: 30px;
+        color: nth($colores,7);
+    }
