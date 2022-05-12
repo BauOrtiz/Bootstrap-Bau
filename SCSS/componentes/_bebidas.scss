@@ -32,5 +32,13 @@
         background-color: nth($colores,6);
         font-family:'Bebas Neue', cursive;
         font-size: 30px;
+        color: nth($colores,5);
+    }
+    .link-botellones{
+        color: nth($colores,5);
+    }
+    .link-botellones:hover{
+        cursor: pointer;
         color: nth($colores,7);
+        transition: 0,5s;
     }

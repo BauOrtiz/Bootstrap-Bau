@@ -140,7 +140,17 @@ header .nav-menu .nav-links_active {
   background-color: #212F3D;
   font-family: "Bebas Neue", cursive;
   font-size: 30px;
+  color: #efefef;
+}
+
+.link-botellones {
+  color: #efefef;
+}
+
+.link-botellones:hover {
+  cursor: pointer;
   color: #FAD7A0;
+  transition: 0, 5s;
 }
 
 .Nosotros {
