@@ -111,6 +111,7 @@ header .nav-menu .nav-links_active {
   }
 }
 .beers {
+  background-color: #FAD7A0;
   font-family: "Yellowtail", cursive;
   font-size: 30px;
   border: 20px;

@@ -2,6 +2,7 @@
 @import '../base/listas';
 
      .beers{
+         background-color: nth($colores,7);
          font-family: 'Yellowtail', cursive;
          font-size: 30px;
          border: 20px;
