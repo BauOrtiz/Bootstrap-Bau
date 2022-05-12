@@ -150,7 +150,7 @@ header .nav-menu .nav-links_active {
 .link-botellones:hover {
   cursor: pointer;
   color: #FAD7A0;
-  transition: 0, 5s;
+  transition: 1s;
 }
 
 .Nosotros {
