@@ -1,1 +1,23 @@
-@import '../base/listas'
+@import '../base/listas';
+
+.robert{
+    width: 540px;
+    border-bottom: 6px solid nth($colores,6);
+    background-color: nth($colores,6);
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+}
+.container-div{
+    background-color: nth($colores,6);
+}
+.robert img{
+    width: 300px;
+    margin: 5px;
+}
+
+.robert p{
+    color: nth($colores,5);
+}
