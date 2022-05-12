@@ -92,7 +92,7 @@ header .nav-toggle {
     height: calc(100% - 60px);
     overflow-y: auto;
     left: 100%;
-    transition: left 0, 3s;
+    transition: left 1s;
   }
   header .nav-menu .Item-li {
     line-height: 70px;
@@ -110,6 +110,12 @@ header .nav-menu .nav-links_active {
     left: 0;
   }
 }
+.beers {
+  font-family: "Yellowtail", cursive;
+  font-size: 30px;
+  border: 20px;
+}
+
 .Bebidas {
   background-color: #EB984E;
   font-family: "Rock Salt", cursive;
