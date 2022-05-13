@@ -3,5 +3,19 @@
     padding: 0;
 }
 .Body {
-    background-color: #FAD7A0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/foto6.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.capa{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #38273b;
+    opacity: 1;
+    z-index: 1;
 }
