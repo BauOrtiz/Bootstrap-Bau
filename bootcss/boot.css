@@ -111,27 +111,30 @@ header .nav-menu .nav-links_active {
   }
 }
 .robert {
-  width: 540px;
+  width: 600px;
+  margin-left: 24%;
+  border-radius: 5px;
   border-bottom: 6px solid #212F3D;
   background-color: #212F3D;
-  display: flex;
-  justify-content: center;
   line-height: 1.5;
   font-family: "Bebas Neue", cursive;
-  font-size: 29px;
-}
-
-.container-div {
-  background-color: #212F3D;
+  display: flex;
 }
 
 .robert img {
-  width: 300px;
+  width: 270px;
   margin: 5px;
+  position: relative;
+  top: 25px;
+  left: 40px;
+  border-radius: 5px;
 }
 
 .robert p {
+  justify-items: center;
+  margin: 25px;
   color: #efefef;
+  font-size: 29px;
 }
 
 .beers {
