@@ -145,7 +145,7 @@ header .nav-menu .nav-links_active {
 }
 
 .Bebidas {
-  background-color: #EB984E;
+  background-image: url(/Bootstrap/imagenes/fondomadera2.png);
   font-family: "Rock Salt", cursive;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -186,7 +186,7 @@ header .nav-menu .nav-links_active {
   background-color: #212F3D;
   color: #fff;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .Fotos {
