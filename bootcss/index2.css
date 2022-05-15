@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -39,10 +42,12 @@
     text-align: center;
 }
 .cards .contenido h3{
-    font-weight: 400px;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 300px;
     margin-bottom: 15px;
 }
 .cards .contenido p{
+    font-family: 'Bebas Neue', cursive;
     color: black;
     line-height: 1.5;
 }
