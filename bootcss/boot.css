@@ -153,6 +153,7 @@ header .nav-menu .nav-links_active {
   justify-items: center;
   column-gap: 10px;
   row-gap: 10px;
+  border: 6px #212F3D;
 }
 .Bebidas div {
   width: 50%;
