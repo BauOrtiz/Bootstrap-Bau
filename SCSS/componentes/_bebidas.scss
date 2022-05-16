@@ -8,7 +8,7 @@
          border: 20px;
      }
     .Bebidas{
-        background-image: url(../../imagenes/fondomadera2.png);
+        background-image: url(../../imagenes/fondomadera3.webp);
     font-family:'Rock Salt', cursive;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,7 +29,7 @@
     }
     .botellones {
         margin: 10px 0;
-        width: 100%;
+        width: 95%;
         background-color: nth($colores,6);
         font-family:'Bebas Neue', cursive;
         font-size: 30px;

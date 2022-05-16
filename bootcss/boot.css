@@ -145,7 +145,7 @@ header .nav-menu .nav-links_active {
 }
 
 .Bebidas {
-  background-image: url(../../imagenes/fondomadera2.png);
+  background-image: url(../../imagenes/fondomadera3.webp);
   font-family: "Rock Salt", cursive;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -164,7 +164,7 @@ header .nav-menu .nav-links_active {
 
 .botellones {
   margin: 10px 0;
-  width: 100%;
+  width: 95%;
   background-color: #212F3D;
   font-family: "Bebas Neue", cursive;
   font-size: 30px;
