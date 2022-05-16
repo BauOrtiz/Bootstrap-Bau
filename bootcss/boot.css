@@ -163,12 +163,13 @@ header .nav-menu .nav-links_active {
 }
 
 .botellones {
-  margin: 10px 0;
+  margin: 50px 30px;
   width: 95%;
   background-color: #212F3D;
   font-family: "Bebas Neue", cursive;
   font-size: 30px;
   color: #efefef;
+  text-align: center;
 }
 
 .link-botellones {
@@ -185,8 +186,9 @@ header .nav-menu .nav-links_active {
   font-family: "Bebas Neue", cursive;
   background-color: #212F3D;
   color: #fff;
-  width: 100%;
+  width: 95%;
   margin-top: 40px;
+  margin-left: 30px;
 }
 
 .Fotos {
