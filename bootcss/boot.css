@@ -256,7 +256,7 @@ Footer .grupo2 {
 Footer .grupo2 small {
   font-size: 15px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 756px) {
   Footer {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
