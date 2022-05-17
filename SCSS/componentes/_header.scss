@@ -66,7 +66,7 @@ header{
     }
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     header{
         height: 60px;
             .Logo{
@@ -110,4 +110,44 @@ header{
         }
         }
     }
+
+    @media screen and (min-width:755px) and (max-width: 358px){
+        header{
+            height: 60px;
+
+                .nav-menu{
+                    flex-direction: column;
+                    align-items: center;
+                    margin-right: 40px;
+                    background-color: nth($colores,1);
+                    position: fixed;
+                    left: 0;
+                    top: 60px;
+                    width: 50%;
+                    padding: 20px 0;
+    
+                    height: calc(100% - 60px);
+                    overflow-y: auto;
+                    left: 100%;
+                    transition: left 1s;
+            .Item-li{
+                line-height: 70px;
+                }
+               
+                .nav-links:hover,
+                .nav-links_active {
+                    background:none;
+                    color: nth($colores,7);
+                }
+             }
+             .nav-toggle{
+                 height: 50px;
+                 display: block;
+             }
+            
+             .nav-menu_visible{
+                left: 0;
+            }
+            }
+        }
 
