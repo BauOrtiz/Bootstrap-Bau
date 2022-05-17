@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .Body {
   background-color: #FAD7A0;
   padding: 90px 0px 0;
