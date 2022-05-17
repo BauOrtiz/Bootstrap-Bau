@@ -87,7 +87,7 @@ header .nav-toggle {
   header .nav-menu {
     flex-direction: column;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 0;
     background-color: #0a1a2a;
     position: fixed;
     left: 0;
@@ -95,41 +95,6 @@ header .nav-toggle {
     width: 100%;
     padding: 20px 0;
     height: calc(100% - 60px);
-    overflow-y: auto;
-    left: 100%;
-    transition: left 1s;
-  }
-  header .nav-menu .Item-li {
-    line-height: 70px;
-  }
-  header .nav-menu .nav-links:hover,
-header .nav-menu .nav-links_active {
-    background: none;
-    color: #FAD7A0;
-  }
-  header .nav-toggle {
-    height: 50px;
-    display: block;
-  }
-  header .nav-menu_visible {
-    left: 0;
-  }
-}
-@media screen and (min-width: 755px) and (max-width: 358px) {
-  header {
-    height: 60px;
-  }
-  header .nav-menu {
-    flex-direction: column;
-    align-items: center;
-    margin-right: 40px;
-    background-color: #0a1a2a;
-    position: fixed;
-    left: 0;
-    top: 60px;
-    width: 50%;
-    padding: 20px 0;
-    height: calc(30% - 60px);
     overflow-y: auto;
     left: 100%;
     transition: left 1s;
