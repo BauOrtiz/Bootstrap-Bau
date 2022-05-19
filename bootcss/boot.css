@@ -188,6 +188,14 @@ header .nav-menu .nav-links_active {
   transition: 1s;
 }
 
+@media screen and (max-width: 768px) {
+  .botellones {
+    margin: 30px 10px;
+    width: 93%;
+    font-size: 15px;
+    text-align: center;
+  }
+}
 .Nosotros {
   font-family: "Bebas Neue", cursive;
   background-color: #212F3D;
