@@ -142,6 +142,27 @@ header .nav-menu .nav-links_active {
   font-size: 29px;
 }
 
+@media screen and (max-width: 768px) {
+  .robert {
+    margin: 30px 10px;
+    width: 94%;
+    display: flex;
+  }
+
+  .robert img {
+    width: 170px;
+    margin: 5px;
+    position: relative;
+    top: 20px;
+    left: 12px;
+  }
+
+  .robert p {
+    justify-items: center;
+    margin: 25px;
+    font-size: 20px;
+  }
+}
 .beers {
   background-color: #FAD7A0;
   font-family: "Yellowtail", cursive;
@@ -197,7 +218,7 @@ header .nav-menu .nav-links_active {
 
   .botellones {
     margin: 30px 10px;
-    width: 94%;
+    width: 95%;
     font-size: 15px;
     text-align: center;
   }

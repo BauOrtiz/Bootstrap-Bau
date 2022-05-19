@@ -27,3 +27,26 @@
     color: nth($colores,5);
     font-size: 29px;
 }
+
+@media screen and (max-width:768px){
+    .robert{
+        margin: 30px 10px;
+        width: 94%;
+        display: flex;
+    
+    }
+    
+    .robert img{
+        width: 170px;
+        margin: 5px;
+        position: relative;
+        top: 20px;
+        left: 12px;
+    }
+    
+    .robert p{
+        justify-items: center;
+        margin: 25px;
+        font-size: 20px;
+    }
+}
