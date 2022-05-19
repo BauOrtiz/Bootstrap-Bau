@@ -6,3 +6,11 @@
   @include cosas (#212F3D,#fff,95%, 40px);
   margin-left: 30px ;
 }
+
+@media screen and (max-width:768px){
+   .Nosotros{
+    margin: 30px 10px;
+    width: 94%;
+    text-align: center;
+   }
+}

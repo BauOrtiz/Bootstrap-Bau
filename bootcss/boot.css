@@ -211,6 +211,13 @@ header .nav-menu .nav-links_active {
   margin-left: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .Nosotros {
+    margin: 30px 10px;
+    width: 94%;
+    text-align: center;
+  }
+}
 .Fotos {
   margin: 10px;
   background-color: #212F3D;
