@@ -53,42 +53,20 @@
 }
  @media  screen and (max-width: 768px){
      .container {
-        width: 80%;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        max-width: 768px;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
     }
     .cards {
         width: 60%;
-        margin: 20px;
-        border-radius: 6px;
-        overflow: hidden;
-        background-color: #fff;
-        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-        cursor: default;
-        transition: all 400ms ease;
-    }
-    .cards:hover{
-        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-        transform: translateY(-3%);
+        margin: 10px;
     }
     .cards img{
-        width: 90%;
+        width: 80%;
         height: 200px;
+        margin-left: 15px;
     }
-    .cards .contenido{
-        padding: 10px;
-        text-align: center;
-    }
-    .cards .contenido h3{
-        font-family: 'Yellowtail', cursive;
-        font-weight: 300px;
-        margin-bottom: 15px;
-    }
-    .cards .contenido p{
-        font-family: 'Bebas Neue', cursive;
-        color: black;
-        line-height: 1.5;
   }
 
- }
