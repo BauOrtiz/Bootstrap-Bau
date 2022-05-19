@@ -16,13 +16,14 @@
     justify-items: center;
     column-gap: 10px;
     row-gap: 10px;
-    border: 10px #212F3D;
         div{
             
-    width: 50%;
+    width: 70%;
     background-color: map-get($colores-standar,bg-color-grisnegro);
     border: 1px;
+    border-radius: 5px;
     text-decoration: none;
+    text-align: center;
     color: map-get($colores-standar, color);
 
 
@@ -47,9 +48,16 @@
     }
 
     @media screen and (max-width:768px){
+        
+        .Bebidas div{
+            width: 70%;
+            font-size: 15px;
+        }
+        
+        
         .botellones{
             margin: 30px 10px;
-            width: 93%;
+            width: 94%;
             font-size: 15px;
             text-align: center;
         }
