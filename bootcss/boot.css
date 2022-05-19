@@ -74,6 +74,10 @@ header .nav-toggle {
   cursor: pointer;
   display: none;
 }
+header .nav-toggle:hover {
+  color: #FAD7A0;
+  transition: 0.5s;
+}
 
 @media screen and (max-width: 768px) {
   header {
