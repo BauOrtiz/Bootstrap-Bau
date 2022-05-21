@@ -182,6 +182,7 @@ header .nav-menu .nav-links_active {
   grid-template-rows: 30px 30px 30px 30px 30px 30px;
   justify-items: center;
   column-gap: 10px;
+  row-gap: 10px;
 }
 .Bebidas div {
   width: 70%;
