@@ -194,9 +194,6 @@ header .nav-menu .nav-links_active {
   text-align: center;
   font-size: 15px;
 }
-.Bebidas .Numeros {
-  color: #efefef;
-}
 .Bebidas .Items {
   color: #efefef;
 }
@@ -239,7 +236,7 @@ header .nav-menu .nav-links_active {
 @media screen and (max-width: 768px) {
   .Bebidas div {
     width: 70%;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .botellones {
