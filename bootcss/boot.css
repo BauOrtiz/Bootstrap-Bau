@@ -175,14 +175,13 @@ header .nav-menu .nav-links_active {
 }
 
 .Bebidas {
-  background-image: url(/Bootstrap/imagenes/fondomadera3.webp);
+  background-image: url(../../imagenes/fondomadera3.webp);
   font-family: "Rock Salt", cursive;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 30px 30px 30px 30px 30px 30px;
   justify-items: center;
   column-gap: 10px;
-  row-gap: 10px;
 }
 .Bebidas div {
   width: 70%;
