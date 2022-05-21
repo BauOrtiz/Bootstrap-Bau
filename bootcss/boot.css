@@ -179,7 +179,7 @@ header .nav-menu .nav-links_active {
   font-family: "Rock Salt", cursive;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px;
   justify-items: center;
   column-gap: 10px;
   row-gap: 10px;
@@ -190,13 +190,27 @@ header .nav-menu .nav-links_active {
   border: 1px;
   border-radius: 5px;
   text-decoration: none;
+  justify-items: center;
   text-align: center;
+  font-size: 15px;
 }
 .Bebidas .Items {
   color: #efefef;
 }
 .Bebidas .Items7 {
-  color: #efefef;
+  color: #d7581d;
+}
+.Bebidas .Items8 {
+  color: #3edbbe;
+}
+.Bebidas .Items10 {
+  color: #FAC1FD;
+}
+.Bebidas .Items6 {
+  color: #85C1E9;
+}
+.Bebidas .Items3 {
+  color: #FAFFA4;
 }
 
 .botellones {
