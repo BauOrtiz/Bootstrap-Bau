@@ -24,10 +24,13 @@
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-    color: map-get($colores-standar, color);
-
-
-        }
+     }
+       .Items{
+           color: nth($colores,5);
+       }
+       .Items7{
+           color: nth($colores,5);
+       }
     }
     .botellones {
         margin: 50px 30px;

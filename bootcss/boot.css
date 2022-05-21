@@ -191,7 +191,12 @@ header .nav-menu .nav-links_active {
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
-  color: aliceblue;
+}
+.Bebidas .Items {
+  color: #efefef;
+}
+.Bebidas .Items7 {
+  color: #efefef;
 }
 
 .botellones {
