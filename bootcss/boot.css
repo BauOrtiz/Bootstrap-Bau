@@ -168,7 +168,7 @@ header .nav-menu .nav-links_active {
   }
 }
 .beers {
-  background-color: #FAD7A0;
+  background-image: url(../../imagenes/fondomadera3.webp);
   font-family: "Yellowtail", cursive;
   font-size: 30px;
   border: 20px;
@@ -235,7 +235,7 @@ header .nav-menu .nav-links_active {
 
 @media screen and (max-width: 768px) {
   .Bebidas div {
-    width: 70%;
+    width: 80%;
     font-size: 10px;
   }
 
